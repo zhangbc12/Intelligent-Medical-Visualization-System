@@ -1,0 +1,7 @@
+symptom_qwds
+cureway_qwds
+lasttime_qwds
+cureprob_qwds
+check_qwds
+belong_qwds
+disase_qwds

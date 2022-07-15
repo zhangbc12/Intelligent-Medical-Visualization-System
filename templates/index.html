@@ -1,0 +1,233 @@
+﻿<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Links of CSS files -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flaticon.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/boxicons.min.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/responsive.css') }}" type="text/css">
+
+        <title>Intelligent Medical Visualization System</title>
+
+        <link rel="icon" href="{{ url_for('static', filename='assets/img/favicon.png') }}">
+    </head>
+
+    <body>
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="shadow"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area navbar-style-three">
+            <div class="cognizance-responsive-nav">
+                <div class="container">
+                    <div class="cognizance-responsive-menu">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="{{ url_for('static', filename='assets/img/logo.png') }}" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cognizance-nav">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="/">
+                            <img src="{{ url_for('static', filename='assets/img/logo.png') }}" alt="logo">
+                        </a>
+
+                        <div class="collapse navbar-collapse mean-menu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+
+                                <li class="nav-item"><a href="/qa" class="nav-link">QA System</a></li>
+
+                                <li class="nav-item"><a href="/emergency-map" class="nav-link">Emergency Map</a></li>
+
+                                <li class="nav-item"><a href="/aed-map" class="nav-link">AED Map</a></li>
+                            </ul>
+
+                            <div class="others-option d-flex align-items-center">
+                                <div class="option-item">
+                                    <a href="#" class="default-btn"><i class="flaticon-open-book"></i> Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="circle circle-one"></div>
+                            <div class="circle circle-two"></div>
+                            <div class="circle circle-three"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="option-inner">
+                            <div class="others-option">
+                                <div class="option-item">
+                                    <a href="#" class="default-btn"><i class="flaticon-open-book"></i> Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <!-- Start Main Banner Area -->
+        <section class="hero-banner">
+            <div class="container">
+                <div class="hero-banner-content">
+                    <h1 style="font-size: x-large">Introduce to Intelligent Medical Visualization System</h1>
+                </div>
+                <div class="banner-box-list">
+                    <div class="single-banner-box">
+                        <h3>This is our MSC Program of HKU named Intelligent Medical Visualization System. We are committed to providing convenience to users by visualising medical data. There are 3 applications, Intelligent QA System, Emergency Map and AED Map .Hope our applications can help you!</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start About Area -->
+        <section class="about-area-two bg-f9f9f9 ptb-100">
+            <div class="container">
+                <div class="about-inner-area">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 image">
+                            <div class="about-image-two">
+                                <img src="{{ url_for('static', filename='assets/img/index_intro1.jpg') }}" alt="image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 content">
+                            <div class="about-content-two">
+                                <span class="sub-title">Map Service</span>
+                                <a href="/emergency-map"><h2>About Emergency Treatment Map</h2></a>
+                                <h6>The most convenient emergency hospital for you </h6>
+                                <p>Do you often face the problem of not knowing which hospital to go to when you need emergency care?</p>
+                                <p>Some hospitals are close, but there may be long queues</p>
+                                <p>We will recommend the best hospital and route for you, taking into account the distance to travel and the time required to queue.</p>
+                                <div class="features-text">
+                                    <h5><i class='bx bx-planet'></i>Easy to use </h5>
+                                    <p>Just click where you are at the map, we will recommend emergency hospitals and corresponding path for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-inner-area">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 content">
+                            <div class="about-content-two">
+                                <span class="sub-title">Map Service</span>
+                                <a href="/aed=map"><h2>AED Finder</h2></a>
+                                <p>An automated external defibrillator (AED) is a portable electronic device that automatically diagnoses the life-threatening disease of heart in emergency situations. </p>
+                                <p>There are around 1400 AED located in various parts of Hong Kong. It is important to be able to find an AED quickly in an emergency.</p>
+                                <p>Be Clean & Keep Clean, Maintain Social Distance, Avoid All Kinds of Crowds including Social Gathering, Protect Yourself and Others!</p>
+                                <div class="features-text">
+                                    <h5><i class='bx bx-planet'></i>Easy to use </h5>
+                                    <p>Just click where you are at the map, we will recommend several nearby AED Stations and corresponding path for you.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 image">
+                            <div class="about-image-two">
+                                <img src="{{ url_for('static', filename='assets/img/index_intro2.jpg') }}" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-inner-area">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 image">
+                            <div class="about-image-two">
+                                <img src="{{ url_for('static', filename='assets/img/index_intro3.jpg') }}" alt="image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 content">
+                            <div class="about-content-two">
+                                <span class="sub-title">QA</span>
+                                <a href="/qa"><h2>Intelligent Q&A Medical System</h2></a>
+                                <p>QA system is used for users who encounter some medical-related questions. users stay at home to learn something about how to prevent and treat diseases.</p>
+                                <p>Users can describe the symptoms, ask some questions about diseases and healthcare. Then the system can Automatic classify and identify the problems to give some advises from medical knowledge graph</p>
+                                <ul class="features-list">
+                                    <li><span><i class='bx bx-check-double'></i> Symptoms</span></li>
+                                    <li><span><i class='bx bx-check-double'></i> Treatments</span></li>
+                                    <li><span><i class='bx bx-check-double'></i> Treatment cycle</span></li>
+                                    <li><span><i class='bx bx-check-double'></i> Healing rate</span></li>
+                                    <li><span><i class='bx bx-check-double'></i> Check items</span></li>
+                                    <li><span><i class='bx bx-check-double'></i> Department</span></li>
+                                    <li><span><i class='bx bx-check-double'></i> Possible illnesses for the symptoms</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Area -->
+
+        <!-- Start Footer Area -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="subscribe-area">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-12">
+                            <h2>Subscribe to Our Newsletter</h2>
+                        </div>
+
+                        <div class="col-lg-7 col-md-12">
+                            <form class="newsletter-form" data-bs-toggle="validator">
+                                <input type="text" class="input-newsletter" placeholder="Enter your email address" name="EMAIL" required autocomplete="off">
+                                <button type="submit">Subscribe Now <i class="flaticon-plane"></i></button>
+                                <div id="validator-newsletter" class="form-result"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <p><i class='bx bx-copyright'></i> 2022 Intelligent Medical System. Designed By <a href="/">us</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+
+        <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
+
+
+        <!-- Links of JS files -->
+        <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+    </body>
+</html>
